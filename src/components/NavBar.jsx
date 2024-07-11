@@ -22,7 +22,7 @@ export function NavBar () {
             <div class="bg-white flex justify-between items-center pl-10 pr-10 p-4 h-16">
                 {/* Logo */}
                 <div class="flex items-center">
-                    <a href="/home">
+                    <a href="/my-site/#/home">
                         <img src={logo} alt="Clickable" width={40} height={40}/>
                     </a>
                     <text class="font ml-4">Caitlin Robertson-Swift</text>
