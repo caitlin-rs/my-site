@@ -50,7 +50,7 @@ export const ContactPage = () => {
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center'}}>
                                 <MdOutlineEmail size={30} style={{margin: 4}}/>
-                                <text className='email' class='font-20-dark' style={{marginLeft: 20}}>caitlinrobertsonswift@gmail.com</text>
+                                <text className='email' class='font-20-dark' style={{marginLeft: 20}}>crobertsonswift@gmail.com</text>
                             </div>
                         </div>
 
@@ -62,10 +62,10 @@ export const ContactPage = () => {
                             paddingTop: '20px',
                             paddingRight: '40px'
                         }}>
-                            <Link to="https://github.com/primordial-spoon" target="_blank" rel="noopener noreferrer">
+                            <Link to="https://github.com/caitlin-rs" target="_blank" rel="noopener noreferrer">
                                 <SiGithub size={40} style={{marginRight: 20}} />
                             </Link>
-                            <Link to="https://www.linkedin.com/in/caitlin-robertson-swift" target="_blank" rel="noopener noreferrer">
+                            <Link to="https://www.linkedin.com/in/caitlinrobertsonswift" target="_blank" rel="noopener noreferrer">
                                 <SiLinkedin size={40} />
                             </Link>
                         </div>
