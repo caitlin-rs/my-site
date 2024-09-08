@@ -1,17 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { NavBar } from '../components/NavBar';
-import image from '../assets/6.jpg';
 
 export const WorkPage = () => {
-    const styles = {
-        body: {
-          backgroundImage: `url(${require('../assets/2.jpg')})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          height: '100vh',
-        },
-      };
     return (
         <div>
             <Helmet>
@@ -19,7 +10,7 @@ export const WorkPage = () => {
             </Helmet>
             <NavBar/>
 
-            <body style={{ ...styles.body, display: 'flex', flexDirection: 'row'}}>
+            <body className='image' style={{backgroundImage: `url(${require('../assets/2.jpg')})`, display: 'flex', flexDirection: 'row', height: '100vh'}}>
                 <div style={{ width: '700px', display: 'flex', flexDirection: 'column', justifyContent: 'start', paddingLeft: 40, paddingRight: 40, paddingTop: 20}}>
                     <header class="font-header">Work Experience</header>
                     

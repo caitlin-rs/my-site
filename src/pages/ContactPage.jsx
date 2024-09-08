@@ -1,7 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { NavBar } from '../components/NavBar';
-import image from '../assets/smaller-rot.png';
 import '../styles/CommonStyles.css'
 import { FiPhone } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
@@ -10,14 +9,6 @@ import { Link } from "react-router-dom";
 import ContactForm from '../components/ContactForm';
 
 export const ContactPage = () => {
-    const styles = {
-        body: {
-          backgroundImage: `url(${require('../assets/4.jpg')})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          height: '100vh',
-        },
-    };
     return (
         <div>
             <Helmet>
@@ -26,7 +17,7 @@ export const ContactPage = () => {
             <NavBar/>
 
             {/* Row */}
-            <div style={styles.body}>
+            <div className='image' style={{backgroundImage: `url(${require('../assets/4.jpg')})`, height: '100vh'}}>
                 <div style={{display: 'flex', flexDirection: 'row', paddingTop: '100px'}}>
                     {/* Text */}
                     <div style={{

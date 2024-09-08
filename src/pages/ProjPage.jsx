@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { NavBar } from '../components/NavBar';
-import image from '../assets/smaller.png';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 export const ProjPage = () => {
@@ -10,14 +9,6 @@ export const ProjPage = () => {
     const [isTWVisible, setIsTWVisible] = useState(false);
     const [isJNVisible, setIsJNVisible] = useState(false);
 
-    const styles = {
-        body: {
-          backgroundImage: `url(${require('../assets/red-smaller.jpg')})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          height: '100vh',
-        },
-    };
     return (
         <div>
             <Helmet>
@@ -25,24 +16,15 @@ export const ProjPage = () => {
             </Helmet>
             <NavBar/>
 
-            <div style={styles.body}>
-                <div style={{
-                    width: '700px',
-                    margin: '0 auto',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'center',
-                    paddingLeft: 30,
-                    paddingRight: 30,
-                    paddingTop: 40
-                }}>
+            <div className='image'>
+                <div className='proj-container'>
                     <header class="font-header">Academic Projects</header>
 
                     {/* Parkaide */}
                     <div className='Parkaide paragraph' class='paragraph-border-light' onClick={() => setIsPKVisible(!isPKVisible)}>
-                        <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
+                        <div className='proj-sub-container'>
                             <p class="font-24">Parkaide</p>
-                            <p class="font-button">React Native | TypeScript | React Native Paper</p>
+                            <p class="font-proj">React Native | TypeScript | React Native Paper</p>
                             {isPKVisible ? <IoIosArrowUp style={{cursor: 'pointer'}} size={30}/> : <IoIosArrowDown style={{cursor: 'pointer'}} size={30}/>}
                         </div>
                     
@@ -57,9 +39,9 @@ export const ProjPage = () => {
                    
                     {/* Scribble.md */}
                     <div className='Scribble paragraph' class='paragraph-border-light' onClick={() => setIsSCVisible(!isSCVisible)} style={{marginTop: 20}}>
-                        <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
+                        <div className='proj-sub-container'>
                             <p class="font-24">Scribble.md</p>
-                            <p class="font-button">React | JavaScript | Tailwind CSS</p>
+                            <p class="font-proj">React | JavaScript | Tailwind CSS</p>
                             {isSCVisible ? <IoIosArrowUp style={{cursor: 'pointer'}} size={30}/> : <IoIosArrowDown style={{cursor: 'pointer'}} size={30}/>}
                         </div>
                         
@@ -74,9 +56,9 @@ export const ProjPage = () => {
 
                     {/* Networking */}
                     <div className='Parkaide paragraph' class='paragraph-border-light' onClick={() => setIsJNVisible(!isJNVisible)} style={{marginTop: 20}}>
-                        <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
+                        <div className='proj-sub-container'>
                             <p class="font-24">Java Networking Applications</p>
-                            <p class="font-button">Java | JavaFX</p>
+                            <p class="font-proj">Java | JavaFX</p>
                             {isJNVisible ? <IoIosArrowUp style={{cursor: 'pointer'}} size={30}/> : <IoIosArrowDown style={{cursor: 'pointer'}} size={30}/>}
                         </div>
                     
@@ -92,9 +74,9 @@ export const ProjPage = () => {
                     <header class="font-header" style={{marginTop: 40}}>Personal Projects</header>
                     {/* My Site */}
                     <div className='my-site paragraph' class='paragraph-border-light' onClick={() => setIsTWVisible(!isTWVisible)}>
-                        <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
+                        <div className='proj-sub-container'>
                             <p class="font-24">This Website</p>
-                            <p class="font-button" style={{color: 'white'}}>React | JavaScript | Tailwind CSS</p>
+                            <p class="font-proj" style={{color: 'white'}}>React | JavaScript | Tailwind CSS</p>
                             {isTWVisible ? <IoIosArrowUp style={{cursor: 'pointer'}} size={30}/> : <IoIosArrowDown style={{cursor: 'pointer'}} size={30}/>}
                         </div>
                         

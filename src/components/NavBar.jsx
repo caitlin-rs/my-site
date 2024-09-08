@@ -19,9 +19,19 @@ export function NavBar () {
 
     return (
         <div>
-            <div class="bg-white flex justify-between items-center pl-10 pr-10 p-4 h-16">
+            <div style={{
+                display:'flex',
+                justifyContent: 'space-between',
+                justifyItems: 'center',
+                padding: 10,
+                paddingLeft: 20,
+                paddingRight: 20,
+            }}>
                 {/* Logo */}
-                <div class="flex items-center">
+                <div style={{
+                    display: 'flex',
+                    alignItems: 'center'
+                }}>
                     <a href="/my-site/#/home">
                         <img src={logo} alt="Clickable" width={40} height={40}/>
                     </a>
@@ -33,7 +43,7 @@ export function NavBar () {
                     <CiMenuKebab size={25} />
                 </button> 
             </div>
-            {menuOpen && ( (isActive("/home") || isActive("/projects") || isActive("/contact")) ? <MenuLight/> : <MenuDark/>)}
+            {menuOpen && ( (isActive("/home") || isActive("/") || isActive("/projects") || isActive("/contact")) ? <MenuLight/> : <MenuDark/>)}
         </div>
     );
       

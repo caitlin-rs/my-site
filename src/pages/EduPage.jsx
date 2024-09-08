@@ -13,14 +13,6 @@ import { TbSql } from "react-icons/tb";
 import { BsCSquare } from "react-icons/bs";
 
 export const EduPage = () => {
-    const styles = {
-        body: {
-            backgroundImage: `url(${require('../assets/3.jpg')})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            height: '130vh',
-        },
-    };
 
     const [isListView, setIsListView] = useState(false);
     const handleViewChange = () => {
@@ -34,9 +26,10 @@ export const EduPage = () => {
             </Helmet>
             <NavBar/>
 
-            <div style={{ ...styles.body, display: 'flex', flexDirection: 'row'}}>
+            <div className='image' style={{backgroundImage: `url(${require('../assets/3.jpg')})`, height: '100%'}}>
+            <div className='edu-container'>s
                 {/* Education */}
-                <div style={{ width: '750px', display: 'flex', flexDirection: 'column', justifyContent: 'start', paddingLeft: 50, paddingRight: 40, paddingTop: 20}}>
+                <div className='edu-sub-container'>
                     
                     <header class="font-header">Education</header>
                     
@@ -57,7 +50,7 @@ export const EduPage = () => {
                 </div>
 
                 {/* Skills */}
-                <div style={{ width: '575px', display: 'flex', flexDirection: 'column', justifyContent: 'start', paddingLeft: 40, paddingRight: 40, paddingTop: 20}}>
+                <div className='edu-grid-container'>
                         <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
                             <header class="font-header">Skills</header>
                             {!isListView ?
@@ -152,7 +145,7 @@ export const EduPage = () => {
                         </div>
                         }
                 </div>
-                
+            </div> 
             </div>
     
         </div>
