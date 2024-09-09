@@ -26,9 +26,7 @@ export const HomePage = () => {
             <header className={`font-header ${isOpen && 'fade-in-2'}`}>Hi, I'm Caitlin!</header>
             
             {/* Text */}
-            <p className={`font-paragraph ${isOpen && 'fade-in-3'}`} style={{display: 'flex', textAlign: 'center', paddingTop: 20}}>I’m a full-stack developer with a strong passion for front-end development. My experience spans both front-end and back-end technologies, allowing me to deliver end-to-end solutions. However, my true passion lies in creating user interfaces and user experiences.</p>
-            <p className={`font-paragraph ${isOpen && 'fade-in-3'}`} style={{display: 'flex', textAlign: 'center', paddingTop: 8}}>I'm seeking opportunities that allow me to leverage my full-stack skills while primarily focusing on front-end development.</p>
-            
+            <p className={`font-paragraph ${isOpen && 'fade-in-3'}`} style={{display: 'flex', textAlign: 'center', paddingTop: 20}}>I am an entry-level full-stack developer with a strong passion for front-end development, currently in my final year of a BSc in Bioinformatics and Computational Biology. With a completed major in Computer Science and in the process of finishing my other major, I expect to graduate by March 2025. I have experience in both front-end and back-end technologies, enabling me to deliver end-to-end solutions. I am looking for software development opportunities that allow me to use my full-stack skills, with a primary focus on front-end development, while continuing to learn and take on new challenges.</p>
             {/* Buttons */}
             <div className='home-buttons'>
                 <Link to="/projects" className={`font button ${isOpen && 'fade-in-4'}`}>View Projects</Link>

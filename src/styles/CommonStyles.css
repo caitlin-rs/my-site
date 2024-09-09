@@ -329,7 +329,7 @@ animation: fadeIn 0.5s forwards;
     width: 750px; 
     display: flex;
     flex-direction: column;
-    justify-content: start; 
+    justify-content: flex-start; 
     padding-left: 50px;
     padding-right: 40px;
     padding-top: 20px
@@ -338,7 +338,7 @@ animation: fadeIn 0.5s forwards;
     width: 575px;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start; 
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
@@ -430,7 +430,7 @@ animation: fadeIn 0.5s forwards;
         width: 700px;
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: flex-start; 
         padding: 20px
     }
     .edu-container {
