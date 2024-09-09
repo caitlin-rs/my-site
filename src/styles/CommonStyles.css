@@ -291,12 +291,13 @@ animation: fadeIn 0.5s forwards;
     background-position: center;
     background-repeat: no-repeat; 
     margin: auto;
+    height: 100hv
   }
   .image {
     background-image: url('../assets/red-smaller.jpg'); 
     background-size: cover;
     background-position: center;
-    height: 130vh
+    height: 100hv
   }
   .home-buttons {
     display: flex;
@@ -389,13 +390,10 @@ animation: fadeIn 0.5s forwards;
         margin-top: 20px;
     }
     .home-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        padding-left: 50px;
+        padding-top: 50px;
         padding-right: 50px;
+        padding-left: 50px;
+        text-align: center;
     }
     .proj-container {
         display: flex;
@@ -423,7 +421,7 @@ animation: fadeIn 0.5s forwards;
     }
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -442,18 +440,18 @@ animation: fadeIn 0.5s forwards;
     .con-text-container {
         padding: 20px;
         height: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        align-items: center;
         background-color: rgba(255, 255, 255, 0.4);
     }
     .con-form-container {
         padding-bottom: 20px;
+        
+        align-items: center;
     }
     .con-form-inputs {
         width: 100%;
         border: 2px solid rgb(0, 0, 0);
-        outline: none
+        outline: none;
     }
     .con-form-msg-inputs {
         width: 100%;

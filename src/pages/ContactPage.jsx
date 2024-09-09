@@ -17,14 +17,14 @@ export const ContactPage = () => {
             <NavBar/>
 
             {/* Row */}
-            <div className='image' style={{backgroundImage: `url(${require('../assets/4.jpg')})`, height: '100vh'}}>
+            <div className='image' style={{backgroundImage: `url(${require('../assets/4.jpg')})`}}>
                 <div className='con-container'>
                     {/* Text */}
                     <div className='con-text-container'>
                         {/* Title */}
                         <header class="font-header-dark">Contact Me</header>
                         <div className='con-icon-text'>
-                            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center'}}>
+                            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center'}}>
                                 <FiPhone size={30} style={{margin: 4}}/>
                                 <text className='phone number' class='font-20-dark' style={{marginLeft: 20}}>076 252 3426</text>
                             </div>

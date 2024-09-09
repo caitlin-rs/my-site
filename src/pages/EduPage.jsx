@@ -26,7 +26,7 @@ export const EduPage = () => {
             </Helmet>
             <NavBar/>
 
-            <div className='image' style={{backgroundImage: `url(${require('../assets/3.jpg')})`, height: '100%'}}>
+            <div className='image' style={{backgroundImage: `url(${require('../assets/3.jpg')})`}}>
             <div className='edu-container'>s
                 {/* Education */}
                 <div className='edu-sub-container'>
