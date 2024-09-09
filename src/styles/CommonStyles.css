@@ -27,6 +27,16 @@ body, html {
     font-size: 16px;
     color: white;
 }
+.home-paragraph {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    color: white;
+}
+.home-header {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 34px;
+    color: white;
+}
 .home-container {
     display: flex;
     flex-direction: column;
@@ -395,6 +405,9 @@ animation: fadeIn 0.5s forwards;
 }
 
   @media (max-width: 768px) {
+    .image {
+        height: 100%;
+      }
     .home-buttons {
         display: flex;
         flex-direction: column;
@@ -480,5 +493,11 @@ animation: fadeIn 0.5s forwards;
         font-family: 'JetBrains Mono', monospace;
         font-size: 16px;
         color: rgb(0, 0, 0);
+    }
+    .home-paragraph {
+        font-size: 12px;
+    }
+    .home-header {
+        font-size: 30px;
     }
   } 
