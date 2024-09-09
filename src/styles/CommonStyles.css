@@ -191,7 +191,7 @@ body, html {
 }
 /* Dark */
 .option-dark {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     color: rgb(0, 0, 0);
     margin: 4px;
     padding: 4px;
@@ -204,7 +204,7 @@ body, html {
 }
 .option-dark:hover {
     border: 2px solid rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     color: rgb(0, 0, 0);
     margin: 4px;
     padding: 4px;
@@ -406,7 +406,7 @@ animation: fadeIn 0.5s forwards;
 
   @media (max-width: 768px) {
     .image {
-        height: 100vh;
+        height: 130vh;
     }
     .home-buttons {
         display: flex;

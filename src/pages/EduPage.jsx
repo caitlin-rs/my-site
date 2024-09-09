@@ -4,7 +4,7 @@ import { NavBar } from '../components/NavBar';
 import '../styles/CommonStyles.css'
 import { FaJava, FaPython, FaListUl } from "react-icons/fa";
 import { SiGnubash, SiTypescript, SiJavascript, SiJetbrains, SiCanva } from "react-icons/si";
-import { DiEclipse, DiGithubBadge, DiGit, DiHtml5, 
+import { DiEclipse, DiGithubBadge, DiGit, 
     DiLinux, DiReact, DiTrello, DiVisualstudio, DiVim, DiNodejs, 
     DiTerminal, DiWindows } from "react-icons/di";
 import { BiLogoGitlab } from "react-icons/bi";
