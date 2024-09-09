@@ -500,4 +500,28 @@ animation: fadeIn 0.5s forwards;
     .home-header {
         font-size: 30px;
     }
+    .option {
+        background-color: rgba(255, 255, 255);
+        color: rgb(0, 0, 0);
+        margin: 4px;
+        padding: 4px;
+        width: 200px;
+        height: 54px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .active-option {
+        background-color: rgba(255, 255, 255, 0.75);
+        color: rgb(0, 0, 0);
+        margin: 4px;
+        padding: 4px;
+        width: 200px;
+        height: 54px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
   } 
