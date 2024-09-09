@@ -26,11 +26,11 @@ export const ContactPage = () => {
                         <div className='con-icon-text'>
                             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center'}}>
                                 <FiPhone size={30} style={{margin: 4}}/>
-                                <text className='phone number' class='font-20-dark' style={{marginLeft: 20}}>076 252 3426</text>
+                                <text className='phone number' class='con-text-dark' style={{marginLeft: 20}}>076 252 3426</text>
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center'}}>
                                 <MdOutlineEmail size={30} style={{margin: 4}}/>
-                                <text className='email' class='font-20-dark' style={{marginLeft: 20}}>crobertsonswift@gmail.com</text>
+                                <text className='email' class='con-text-dark' style={{marginLeft: 20}}>crobertsonswift@gmail.com</text>
                             </div>
                         </div>
 
@@ -38,9 +38,7 @@ export const ContactPage = () => {
                         <div style={{
                             display: 'flex', 
                             flexDirection: 'row', 
-                            justifyContent: 'flex-start', 
-                            paddingTop: '20px',
-                            paddingRight: '40px'
+                            justifyContent: 'flex-start',
                         }}>
                             <Link to="https://github.com/caitlin-rs" target="_blank" rel="noopener noreferrer">
                                 <SiGithub size={40} style={{marginRight: 20}} />

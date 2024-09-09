@@ -381,6 +381,18 @@ animation: fadeIn 0.5s forwards;
     flex-direction: column;
     justify-content: space-between
 }
+.con-text-dark {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.con-icons {
+    display: flex,;
+    flex-direction: row; 
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-right: 40px
+}
 
   @media (max-width: 768px) {
     .home-buttons {
@@ -390,9 +402,10 @@ animation: fadeIn 0.5s forwards;
         margin-top: 20px;
     }
     .home-container {
-        padding-top: 50px;
-        padding-right: 50px;
+        padding-top: 60px;
         padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
         text-align: center;
     }
     .proj-container {
@@ -400,9 +413,7 @@ animation: fadeIn 0.5s forwards;
         width: 100%;
         flex-direction: column;
         justify-content: center;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 40px
+        padding: 20px
     }
     .proj-sub-container {
         display: flex;
@@ -414,6 +425,13 @@ animation: fadeIn 0.5s forwards;
     .font-proj {
         font-family: 'JetBrains Mono', monospace;
         font-size: 16px;
+    }
+    .work-container {
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 20px
     }
     .edu-container {
         display: flex;
@@ -445,7 +463,6 @@ animation: fadeIn 0.5s forwards;
     }
     .con-form-container {
         padding-bottom: 20px;
-        
         align-items: center;
     }
     .con-form-inputs {
@@ -458,5 +475,10 @@ animation: fadeIn 0.5s forwards;
         height: 100px;
         border: 2px solid rgb(0, 0, 0);
         outline: none
+    }
+    .con-text-dark {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 16px;
+        color: rgb(0, 0, 0);
     }
   } 
