@@ -6,11 +6,12 @@ import { FaJava, FaPython, FaListUl } from "react-icons/fa";
 import { SiGnubash, SiTypescript, SiJavascript, SiJetbrains, SiCanva } from "react-icons/si";
 import { DiEclipse, DiGithubBadge, DiGit, DiHtml5, 
     DiLinux, DiReact, DiTrello, DiVisualstudio, DiVim, DiNodejs, 
-    DiTerminal, DiWindows, DiCss3} from "react-icons/di";
+    DiTerminal, DiWindows } from "react-icons/di";
 import { BiLogoGitlab } from "react-icons/bi";
 import { PiSquaresFour } from "react-icons/pi";
 import { TbSql } from "react-icons/tb";
 import { BsCSquare } from "react-icons/bs";
+import { MdHtml, MdCss } from "react-icons/md"
 
 export const EduPage = () => {
 
@@ -26,7 +27,7 @@ export const EduPage = () => {
             </Helmet>
             <NavBar/>
 
-            <div className='image' style={{backgroundImage: `url(${require('../assets/3.jpg')})`}}>
+            <div className='image' style={{backgroundImage: `url(${require('../assets/3.jpg')})`, height: 'auto'}}>
             <div className='edu-container'>s
                 {/* Education */}
                 <div className='edu-sub-container'>
@@ -36,7 +37,8 @@ export const EduPage = () => {
                     <div className='US paragraph' style={{marginTop: 20}}>
                         <p class="font-24">BSc Bioinformatics and Computational Biology</p>
                         <p class="font-18">Stellenbosch University</p>
-                        <p class="font-paragraph" style={{ marginTop: 5, marginLeft: 20}}>Completed with majors in Bioinformatics, Computer Science and Computational Biology</p>
+                        <p class="font-18">Expected graduation: March 2025</p>
+                        <p class="font-paragraph" style={{ marginTop: 5, marginLeft: 20}}>With majors in Bioinformatics, Computer Science and Computational Biology</p>
                     </div>
                     
                     <div className='US paragraph' style={{marginTop: 20}}>
@@ -72,8 +74,8 @@ export const EduPage = () => {
                                 <div className="grid-item"><FaJava size='45'/></div>
                                 <div className="grid-item"><FaPython size='45'/></div>
                                 <div className="grid-item"><SiGnubash size='45'/></div>
-                                <div className="grid-item"><DiHtml5 size='45'/></div>
-                                <div className="grid-item"><DiCss3 size='45'/></div>
+                                <div className="grid-item"><MdHtml size='45'/></div>
+                                <div className="grid-item"><MdCss size='45'/></div>
                                 <div className="grid-item"><SiJavascript size='45'/></div>
                                 <div className="grid-item"><SiTypescript size='45'/></div>
                                 <div className="grid-item"><TbSql size='45'/></div>
@@ -116,6 +118,7 @@ export const EduPage = () => {
                             <li style={{color: 'white', fontSize: 16}}>CSS</li>
                             <li style={{color: 'white', fontSize: 16}}>JavaScript</li>
                             <li style={{color: 'white', fontSize: 16}}>TypeScript</li>
+                            <li style={{color: 'white', fontSize: 16}}>SQL</li>
                             <li style={{color: 'white', fontSize: 16}}>BASH Scripting</li>
                             {/* Frameworks */}
                             <p className='font-18' style={{paddingTop: 10}}>Frameworks</p>

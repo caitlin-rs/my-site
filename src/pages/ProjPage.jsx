@@ -31,7 +31,7 @@ export const ProjPage = () => {
                         {isPKVisible && 
                             <div>
                                 <div style={{marginTop: 10}}>
-                                    <p class="font-paragraph" style={{ marginLeft: 20}}>Parkaide is a mobile application for parking bookings that allows building managers to upload parking maps, enabling users to reserve parking bays. I contributed to the frontend development and its integration with the database.</p>
+                                    <p class="font-paragraph" style={{ marginLeft: 20}}>Parkaide is a mobile application for parking bookings that allows building managers to upload parking maps, enabling users to reserve parking bays. I contributed to the frontend development and its integration with the backend. This project provided me with experience in React app development, improving my skills building dynamic user interfaces.</p>
                                 </div>
                             </div>
                         }
@@ -83,7 +83,7 @@ export const ProjPage = () => {
                         {isTWVisible && 
                             <div>
                         <div style={{marginTop: 10}}>
-                            <p class="font-paragraph" style={{ marginLeft: 20}}>I created this website as a personal project. I developed it entirely and it is hosted via GitHub pages.</p>
+                            <p class="font-paragraph" style={{ marginLeft: 20}}>I created this personal website as an easily accessible version of my resume. It is a static website hosted via GitHub pages.</p>
                         </div>
                         </div>
                         }

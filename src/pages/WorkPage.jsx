@@ -30,11 +30,11 @@ export const WorkPage = () => {
                     <section className='US paragraph' class='paragraph-border-light' style={{marginTop: 20}}>
                         <header style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
                             <p class="font-24">Stellenbosch University</p>
-                            <p class="font-20">2023 - 2024</p>
+                            <p class="font-20">2023 - Present</p>
                         </header>
-                        <subheader class="font-18">Computer Science Tutor/Demi for CS113/4</subheader>
+                        <subheader class="font-18">Computer Science Learning & Teaching Assistant</subheader>
                         <p class="font-paragraph" style={{ marginLeft: 20}}>○ Conducted  Q&A sessions with up to 10 students.</p>
-                        <p class="font-paragraph" style={{ marginLeft: 20}}>○ Assisted during tutorial sessions.</p>
+                        <p class="font-paragraph" style={{ marginLeft: 20}}>○ Assisted during tutorial sessions and project marking.</p>
                         <p class="font-paragraph" style={{ marginLeft: 20}}>○ Invigilated exam sessions.</p>
                     </section>
                 </div>

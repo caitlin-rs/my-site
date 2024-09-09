@@ -406,8 +406,8 @@ animation: fadeIn 0.5s forwards;
 
   @media (max-width: 768px) {
     .image {
-        height: 100%;
-      }
+        height: 100vh;
+    }
     .home-buttons {
         display: flex;
         flex-direction: column;
@@ -523,5 +523,20 @@ animation: fadeIn 0.5s forwards;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .font-24 {
+        font-size: 20px;
+    }
+    .font-20 {
+        font-size: 18px;
+    }
+    .font-18 {
+        font-size: 16px;
+    }
+    .font-paragraph {
+        font-size: 14px;
+    }
+    .font-header {
+        font-size: 30px;
     }
   } 
