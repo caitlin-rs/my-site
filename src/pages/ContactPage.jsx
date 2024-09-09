@@ -17,7 +17,7 @@ export const ContactPage = () => {
             <NavBar/>
 
             {/* Row */}
-            <div className='image' style={{backgroundImage: `url(${require('../assets/4.jpg')})`}}>
+            <div className='image' style={{backgroundImage: `url(${require('../assets/4.jpg')})`, height: '100%'}}>
                 <div className='con-container'>
                     {/* Text */}
                     <div className='con-text-container'>

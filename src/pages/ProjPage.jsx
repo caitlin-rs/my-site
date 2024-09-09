@@ -9,6 +9,14 @@ export const ProjPage = () => {
     const [isTWVisible, setIsTWVisible] = useState(false);
     const [isJNVisible, setIsJNVisible] = useState(false);
 
+    const styles = {
+        body: {
+          backgroundImage: `url(${require('../assets/red-smaller.jpg')})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          height: '100vh',
+        },
+    };
     return (
         <div>
             <Helmet>
@@ -16,7 +24,7 @@ export const ProjPage = () => {
             </Helmet>
             <NavBar/>
 
-            <div className='image'>
+            <div className='image' style={{height: '100%'}}>
                 <div className='proj-container'>
                     <header class="font-header">Academic Projects</header>
 

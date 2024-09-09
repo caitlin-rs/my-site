@@ -19,7 +19,7 @@ export const HomePage = () => {
         </Helmet>
         <NavBar/>
         
-        <div className='home-image'>
+        <div className='image' style={{backgroundImage: `url(${require('../assets/1.jpg')})`, height: '100%'}}>
         
           {/* Title */}
           <div className='home-container'>

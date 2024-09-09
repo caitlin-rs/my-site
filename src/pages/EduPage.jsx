@@ -26,7 +26,7 @@ export const EduPage = () => {
             </Helmet>
             <NavBar/>
 
-            <div className='image' style={{backgroundImage: `url(${require('../assets/3.jpg')})`}}>
+            <div className='image' style={{backgroundImage: `url(${require('../assets/3.jpg')})`, height: '100%'}}>
             <div className='edu-container'>s
                 {/* Education */}
                 <div className='edu-sub-container'>
@@ -42,7 +42,7 @@ export const EduPage = () => {
                     <div className='US paragraph' style={{marginTop: 20}}>
                         <p class="font-24">CBCB Internship</p>
                         <p class="font-18">Stellenbosch University</p>
-                        <p class="font-paragraph" style={{ marginTop: 5, marginLeft: 20}}>I Worked with fellow students to assembly the genome of a Fischer Love Bird (Nel) using a variety of bioinformatical tools.</p>
+                        <p class="font-paragraph" style={{ marginTop: 5, marginLeft: 20}}>I worked with fellow students to assembly the genome of a Fischer Love Bird (Nel) using a variety of bioinformatical tools.</p>
                         
                         <p class="font-paragraph" style={{ marginTop: 5, marginLeft: 20}}>I gained experience working with HPCs and BASH Scripting.</p>
                         

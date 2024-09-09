@@ -291,13 +291,13 @@ animation: fadeIn 0.5s forwards;
     background-position: center;
     background-repeat: no-repeat; 
     margin: auto;
-    height: 100hv
+    height: 100vh
   }
   .image {
     background-image: url('../assets/red-smaller.jpg'); 
     background-size: cover;
     background-position: center;
-    height: 100hv
+    height: 100vh;
   }
   .home-buttons {
     display: flex;
@@ -466,12 +466,12 @@ animation: fadeIn 0.5s forwards;
         align-items: center;
     }
     .con-form-inputs {
-        width: 100%;
+        width: 110%;
         border: 2px solid rgb(0, 0, 0);
         outline: none;
     }
     .con-form-msg-inputs {
-        width: 100%;
+        width: 110%;
         height: 100px;
         border: 2px solid rgb(0, 0, 0);
         outline: none

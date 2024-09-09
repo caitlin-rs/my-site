@@ -10,8 +10,8 @@ export const WorkPage = () => {
             </Helmet>
             <NavBar/>
 
-            <body className='image' style={{backgroundImage: `url(${require('../assets/2.jpg')})`, display: 'flex', flexDirection: 'row'}}>
-                <div className='work-container'>
+            <body className='image' style={{backgroundImage: `url(${require('../assets/2.jpg')})`, display: 'flex', flexDirection: 'row', height: '100%'}}>
+                <div style={{ width: '700px', display: 'flex', flexDirection: 'column', justifyContent: 'start', paddingLeft: 40, paddingRight: 40, paddingTop: 20, paddingBottom: 20}}>
                     <header class="font-header">Work Experience</header>
                     
                     <section className='BrightSparkz paragraph' class='paragraph-border-light'>
