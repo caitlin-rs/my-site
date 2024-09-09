@@ -18,23 +18,12 @@ export const ContactPage = () => {
 
             {/* Row */}
             <div className='image' style={{backgroundImage: `url(${require('../assets/4.jpg')})`, height: '100vh'}}>
-                <div style={{display: 'flex', flexDirection: 'row', paddingTop: '100px'}}>
+                <div className='con-container'>
                     {/* Text */}
-                    <div style={{
-                        paddingTop: '20px', 
-                        paddingLeft: '40px',
-                        paddingRight: '100px',
-                        height: '400px',
-                        paddingBottom: '20px',
-                        display: 'flex', 
-                        flexDirection: 'column', 
-                        justifyContent: 'space-between',
-                        backgroundColor: 'rgba(255, 255, 255, 0.4)'
-                    }}>
-                        
+                    <div className='con-text-container'>
                         {/* Title */}
                         <header class="font-header-dark">Contact Me</header>
-                        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+                        <div className='con-icon-text'>
                             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center'}}>
                                 <FiPhone size={30} style={{margin: 4}}/>
                                 <text className='phone number' class='font-20-dark' style={{marginLeft: 20}}>076 252 3426</text>

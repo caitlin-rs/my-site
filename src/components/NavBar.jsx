@@ -43,7 +43,7 @@ export function NavBar () {
                     <CiMenuKebab size={25} />
                 </button> 
             </div>
-            {menuOpen && ( (isActive("/home") || isActive("/") || isActive("/projects") || isActive("/contact")) ? <MenuLight/> : <MenuDark/>)}
+            {menuOpen && (((isActive("/home") || isActive("/") || isActive("/projects") || isActive("/contact")) || window.innerWidth <= 768)? <MenuLight/> : <MenuDark/>)}
         </div>
     );
       

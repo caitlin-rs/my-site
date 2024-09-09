@@ -45,7 +45,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form style={{paddingTop: '40px', paddingLeft: '20px', paddingRight: '50px', backgroundColor: 'rgba(255, 255, 255, 0.4)'}} onSubmit={handleSubmit}>
+    <form className='con-form-container' onSubmit={handleSubmit}>
       <div className='From Name' style={{display: 'flex', flexDirection: 'column'}}>
         <label class='font'>Name:</label>
         <input 
@@ -53,7 +53,7 @@ const ContactForm = () => {
           name="from_name" 
           value={formInfo.from_name} 
           onChange={handleChange} 
-          style={{width: '500px', border: '2px solid rgb(0, 0, 0)', outline: 'none'}}
+          className='con-form-inputs'
           required
         />
       </div>
@@ -64,14 +64,14 @@ const ContactForm = () => {
           name="from_email" 
           value={formInfo.from_email} 
           onChange={handleChange} 
-          style={{width: '500px', border: '2px solid rgb(0, 0, 0)', outline: 'none'}}
+          className='con-form-inputs'
           required 
         />
       </div>
       <div className='Message' style={{display: 'flex', flexDirection: 'column', paddingTop: '10px'}}>
         <label class='font'>Message:</label>
         <textarea 
-            style={{width: '500px', height: '100px', border: '2px solid rgb(0, 0, 0)', outline: 'none'}}
+            className='con-form-msg-inputs'
             name="message" 
             value={formInfo.message} 
             onChange={handleChange} 
