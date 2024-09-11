@@ -31,7 +31,7 @@ export const ProjPage = () => {
                         {isPKVisible && 
                             <div>
                                 <div style={{marginTop: 10}}>
-                                    <p class="font-paragraph" style={{ marginLeft: 20}}>Parkaide is a mobile application for parking bookings that allows building managers to upload parking maps, enabling users to reserve parking bays. I contributed to the frontend development and its integration with the backend. This project provided me with experience in React app development, improving my skills building dynamic user interfaces.</p>
+                                    <p class="font-paragraph" style={{ marginLeft: 20}}>Parkaide is a mobile application for parking bookings that allows building managers to upload parking maps, enabling users to reserve parking bays. I contributed to the frontend development and its integration with the backend. This project provided me with experience in React app development, giving me the skills to create dynamic user interfaces.</p>
                                 </div>
                             </div>
                         }
@@ -41,14 +41,14 @@ export const ProjPage = () => {
                     <div className='Scribble paragraph' class='paragraph-border-light' onClick={() => setIsSCVisible(!isSCVisible)} style={{marginTop: 20}}>
                         <div className='proj-sub-container'>
                             <p class="font-24">Scribble.md</p>
-                            <p class="font-proj">React | JavaScript | Tailwind CSS</p>
+                            <p class="font-proj">React | JavaScript | Tailwind CSS | GraphQL</p>
                             {isSCVisible ? <IoIosArrowUp style={{cursor: 'pointer'}} size={30}/> : <IoIosArrowDown style={{cursor: 'pointer'}} size={30}/>}
                         </div>
                         
                         {isSCVisible && 
                             <div>
                         <div style={{marginTop: 10}}>
-                            <p class="font-paragraph" style={{ marginLeft: 20}}>Scribble.md is a Markdown note-taking web application that enables editing, previewing, and saving of Markdown files. Developed collaboratively, my primary focus was on frontend development and integrating the frontend with the database when necessary. This project enhanced my understanding of web development and provided me with a foundational knowledge of PostgreSQL.</p>
+                            <p class="font-paragraph" style={{ marginLeft: 20}}>Scribble.md is a Markdown note-taking web application. Developed collaboratively, my primary focus was on frontend development, including querying the backend for frontend components. This project enhanced my understanding of web development and provided me with foundational knowledge of GraphQL querying.</p>
                         </div>
                         </div>
                         }
@@ -83,7 +83,7 @@ export const ProjPage = () => {
                         {isTWVisible && 
                             <div>
                         <div style={{marginTop: 10}}>
-                            <p class="font-paragraph" style={{ marginLeft: 20}}>I created this personal website as an easily accessible version of my resume. It is a static website hosted via GitHub pages.</p>
+                            <p class="font-paragraph" style={{ marginLeft: 20}}>I created this personal website as an easily accessible version of my CV. It is a static website hosted via GitHub pages.</p>
                         </div>
                         </div>
                         }

@@ -406,7 +406,7 @@ animation: fadeIn 0.5s forwards;
 
   @media (max-width: 768px) {
     .image {
-        height: 130vh;
+        height: 150vh;
     }
     .home-buttons {
         display: flex;

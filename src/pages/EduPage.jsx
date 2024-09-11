@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import { NavBar } from '../components/NavBar';
 import '../styles/CommonStyles.css'
 import { FaJava, FaPython, FaListUl } from "react-icons/fa";
-import { SiGnubash, SiTypescript, SiJavascript, SiJetbrains, SiCanva } from "react-icons/si";
+import { SiGnubash, SiTypescript, SiJavascript, SiJetbrains, SiCanva, SiGraphql, SiTailwindcss } from "react-icons/si";
 import { DiEclipse, DiGithubBadge, DiGit, 
     DiLinux, DiReact, DiTrello, DiVisualstudio, DiVim, DiNodejs, 
     DiTerminal, DiWindows } from "react-icons/di";
@@ -44,7 +44,7 @@ export const EduPage = () => {
                     <div className='US paragraph' style={{marginTop: 20}}>
                         <p class="font-24">CBCB Internship</p>
                         <p class="font-18">Stellenbosch University</p>
-                        <p class="font-paragraph" style={{ marginTop: 5, marginLeft: 20}}>I worked with fellow students to assembly the genome of a Fischer Love Bird (Nel) using a variety of bioinformatical tools.</p>
+                        <p class="font-paragraph" style={{ marginTop: 5, marginLeft: 20}}>I worked with fellow students to assemble the genome of a Fischer Love Bird (Nel) using a variety of bioinformatical tools.</p>
                         
                         <p class="font-paragraph" style={{ marginTop: 5, marginLeft: 20}}>I gained experience working with HPCs and BASH Scripting.</p>
                         
@@ -73,28 +73,31 @@ export const EduPage = () => {
                             <div className="grid-container">
                                 <div className="grid-item"><FaJava size='45'/></div>
                                 <div className="grid-item"><FaPython size='45'/></div>
-                                <div className="grid-item"><SiGnubash size='45'/></div>
                                 <div className="grid-item"><MdHtml size='45'/></div>
                                 <div className="grid-item"><MdCss size='45'/></div>
                                 <div className="grid-item"><SiJavascript size='45'/></div>
                                 <div className="grid-item"><SiTypescript size='45'/></div>
                                 <div className="grid-item"><TbSql size='45'/></div>
+                                <div className="grid-item"><SiGraphql size='45'/></div>
                                 <div className="grid-item"><BsCSquare size='45'/></div>
                             </div>
                             {/* Frameworks */}
                             <p className='font-18'>Frameworks</p>
                             <div className="grid-container">
-                                <div className="grid-item"><DiNodejs size='45'/></div>
                                 <div className="grid-item"><DiReact size='45'/></div>
+                                <div className="grid-item"><SiTailwindcss size='45'/></div>
+
                             </div>
                             {/* Development */}
                             <p className='font-18'>Development</p>
                             <div className="grid-container">
+                                <div className="grid-item"><DiNodejs size='45'/></div>
                                 <div className="grid-item"><DiEclipse size='45'/></div>
                                 <div className="grid-item"><DiVisualstudio size='45'/></div>
                                 <div className="grid-item"><DiVim size='45'/></div>
                                 <div className="grid-item"><SiJetbrains size='45'/></div>
                                 <div className="grid-item"><DiTerminal size='45'/></div>
+                                <div className="grid-item"><SiGnubash size='45'/></div>
 
                                 <div className="grid-item"><DiGit size='45'/></div>
                                 <div className="grid-item"><DiGithubBadge size='45'/></div>
@@ -119,27 +122,39 @@ export const EduPage = () => {
                             <li style={{color: 'white', fontSize: 16}}>JavaScript</li>
                             <li style={{color: 'white', fontSize: 16}}>TypeScript</li>
                             <li style={{color: 'white', fontSize: 16}}>SQL</li>
-                            <li style={{color: 'white', fontSize: 16}}>BASH Scripting</li>
+                            <li style={{color: 'white', fontSize: 16}}>GraphQL</li>
+                            
                             {/* Frameworks */}
                             <p className='font-18' style={{paddingTop: 10}}>Frameworks</p>
                             <li style={{color: 'white', fontSize: 16}}>React</li>
                             <li style={{color: 'white', fontSize: 16}}>React Native</li>
-                            <li style={{color: 'white', fontSize: 16}}>Node.js</li>
+                            <li style={{color: 'white', fontSize: 16}}>JavaFX</li>
+                            <li style={{color: 'white', fontSize: 16}}>Tailwind CSS</li>
+
+                            {/* Libraries */}
+                            <p className='font-18' style={{paddingTop: 10}}>Libraries</p>
+                            <li style={{color: 'white', fontSize: 16}}>React Native Paper</li>
+
                             {/* Development */}
                             <p className='font-18' style={{paddingTop: 10}}>Development</p>
+                            <li style={{color: 'white', fontSize: 16}}>Node.js</li>
+
                             <p className='font-button' style={{color: 'white'}}>IDEs</p>
                             <li style={{color: 'white', fontSize: 16}}>VScode</li>
                             <li style={{color: 'white', fontSize: 16}}>Eclipse</li>
                             <li style={{color: 'white', fontSize: 16}}>Vim/NeoVim</li>
                             <li style={{color: 'white', fontSize: 16}}>JetBrains</li>
 
-                            <p className='font-button' style={{color: 'white'}}>CI/CD</p>
+                            <p className='font-button' style={{color: 'white'}}>Version Control & CI/CD</p>
                             <li style={{color: 'white', fontSize: 16}}>Git</li>
                             <li style={{color: 'white', fontSize: 16}}>GitHub/GitLab</li>
 
-                            <p className='font-button' style={{color: 'white'}}>Systems</p>
+                            <p className='font-button' style={{color: 'white'}}>Operating Systems</p>
                             <li style={{color: 'white', fontSize: 16}}>Linux</li>
                             <li style={{color: 'white', fontSize: 16}}>Windows</li>
+
+                            <p className='font-button' style={{color: 'white'}}>Terminal Tools</p>
+                            <li style={{color: 'white', fontSize: 16}}>BASH Scripting</li>
                             <li style={{color: 'white', fontSize: 16}}>Terminal</li>
 
                             <p className='font-button' style={{color: 'white'}}>Project Management</p>
